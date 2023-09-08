@@ -5,4 +5,6 @@ let age = prompt("Digite seu ano de nascimento");
 
 Number(age);
 
-alert(`Olá, ${firstname} ${lastname}! Você está cursando ${study} e tem ${2023 - age} anos.`);
+let newAge = 2023 - Number(age)
+
+alert(`Olá, ${firstname} ${lastname}! Você está cursando ${study} e tem ${newAge} anos.`);

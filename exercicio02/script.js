@@ -1,6 +1,7 @@
 let number1 = prompt("Digite o primeiro número");
 let number2 = prompt("Digite o segundo número");
 
+
 let soma = Number(number1) + Number(number2);
 let subtracao = Number(number1) - Number(number2);
 let multiplicacao = Number(number1) * Number(number2);
