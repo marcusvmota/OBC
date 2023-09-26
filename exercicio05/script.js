@@ -3,6 +3,7 @@ let medida = prompt("Digite um valor em metros que deseja converter");
 let options = prompt("Escolha uma das opções abaixo:\nA) converter em milimetros \nB) converter em centimetros\nC) converter em decímetros\nD) converter em decâmetros \nE) converter em hectometros\nF) converter em quilometros");
 
 medida = Number(medida);
+options = options.toUpperCase();
 
 let cm = medida * 100
 let ml = medida * 1000
