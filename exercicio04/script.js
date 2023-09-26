@@ -9,7 +9,7 @@ poder = Number(poder);
 defesa = Number(defesa);
 
 let resultado1 = poder - defesa;
-let resultado2 = (poder/2) - defesa;
+let resultado2 = (poder - defesa) /2;
 
 let life = 100
 
