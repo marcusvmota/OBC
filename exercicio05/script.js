@@ -16,10 +16,10 @@ let km = medida / 1000
 
 switch (options) {
     case "A":
-        alert(`${medida} metros equivalem a ${cm} milimetros `)
+        alert(`${medida} metros equivalem a ${ml} milimetros `)
         break
     case "B":
-        alert(`${medida} metros equivalem a ${ml} centimetros `)
+        alert(`${medida} metros equivalem a ${cm} centimetros `)
         break
     case "C":
         alert(`${medida} metros equivalem a ${dm} decimetros`)
