@@ -13,7 +13,6 @@ let resultado2 = (poder - defesa) /2;
 
 let life = 100
 
-let newLife = life - resultado1
 
 
 if (poder > defesa && escudo == "N") {
